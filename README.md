@@ -20,13 +20,19 @@ protobuf二进制解码：Decode
 -
 安装Python 3.14.5
 -
-
+导出元件资产文件.gia
+-
 1_[拖放]gia反序列proto.cmd
 -
 （按标准修改proto可读文本格式后）
 
 2_[拖放]poto封装gia.cmd
 -
+
+或命令行：
+py 合并解封流程.py in.gia out.proto
+py 合并封装流程.py in.proto out.gia
+
 ---------------解码说明
 -
 此方案只用于protobuf的反序列化，不一定适用于GIA
