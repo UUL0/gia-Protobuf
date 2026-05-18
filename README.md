@@ -2,9 +2,10 @@
 基于Protobuf的千星GIA实体变量解析
 -
 ---------------核心myProtobuf.py
-————从protobuf二进制文件解码：ParseProto
-————从base64编码的protobuf二进制数据解码：ParseProtoFromBase64
-————protobuf二进制解码：Decode
+
+从protobuf二进制文件解码：ParseProto
+从base64编码的protobuf二进制数据解码：ParseProtoFromBase64
+protobuf二进制解码：Decode
 
 ————编码核心：ReEncode
 修改未知错误（可能是版本）
