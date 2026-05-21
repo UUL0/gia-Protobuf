@@ -291,7 +291,8 @@ def ParseData(data, start, end, messages, depth = 0,V_Type = None):
 
             start = start + 4
             try:
-                floatNum = struct.unpack('f',struct.pack('i',int(hex(num),16)))
+                # floatNum = struct.unpack('f',struct.pack('i',int(hex(num),16))) # 不明意义，i转为有符号的32位整数，但读取负数，python的int是可变的类型
+                floatNum = struct.unpack('f',struct.pack('I',int(hex(num),16))) # I，无符号
                 floatNum = floatNum[0]
             except:
                 floatNum = None

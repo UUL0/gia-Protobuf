@@ -2,6 +2,7 @@ import sys
 import myProtobuf as pbparser
 from typing import Dict
 import struct
+import ast
 
 def main():
     if len(sys.argv) != 3:
@@ -14,7 +15,8 @@ def main():
 
     print("1、读取proto文本")
     with open(input_file , "r", encoding="utf-8") as f:  
-        dict = eval(f.read())
+        # dict = eval(f.read()) # '\'遇到这种字符时会错误
+        dict =ast.literal_eval(f.read())
 
     print("2、转为protobuf hex")
     output = list()

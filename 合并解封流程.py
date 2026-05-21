@@ -84,8 +84,8 @@ def print_dict(dictionary, indent_level=0, output_file=None):
         else:
             output_file.write('\n')
     
-    output_file.write(' ' * indent_level + '}\n')
-
+    output_file.write(' ' * indent_level + '}')
+    # output_file.write(' ' * indent_level + '}\n')
 
 # 程序入口
 if __name__ == "__main__":
