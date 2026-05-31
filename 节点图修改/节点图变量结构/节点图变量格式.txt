@@ -1,0 +1,270 @@
+------------------------------------------------整数列表
+                  '06:50:embedded message': 
+                    {
+                      '02:00:string': '变量_4',
+                      '03:01:Varint': 8,
+                      '04:02:embedded message': 
+                        {
+                          '01:00:Varint': 10002,
+                          '02:01:Varint': 1,
+                          '04:02:embedded message': 
+                            {
+                              '01:00:Varint': 1,
+                              '100:01:embedded message': 
+                                {
+                                  '01:00:Varint': 8
+                                }
+
+                            },
+                          '109:03:embedded message': 
+                            {
+                              '01:00:embedded message': 
+                                {
+                                  '01:00:Varint': 2,
+                                  '02:01:Varint': 1,
+                                  '04:02:embedded message': 
+                                    {
+                                      '01:00:Varint': 1,
+                                      '100:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 3
+                                        }
+
+                                    },
+                                  '102:03:embedded message': 
+                                    {
+                                      '01:00:Varint': 5
+                                    }
+
+                                },
+                              '01:01:embedded message': 
+                                {
+                                  '01:00:Varint': 2,
+                                  '02:01:Varint': 1,
+                                  '04:02:embedded message': 
+                                    {
+                                      '01:00:Varint': 1,
+                                      '100:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 3
+                                        }
+
+                                    },
+                                  '102:03:embedded message': 
+                                    {
+                                      '01:00:Varint': 776
+                                    }
+
+                                }
+
+                            }
+
+                        },
+                      '07:03:Varint': 6,
+                      '08:04:Varint': 6
+                    },
+--------------------整数列表项子块
+                              '01:01:embedded message': 
+                                {
+                                  '01:00:Varint': 2,
+                                  '02:01:Varint': 1,
+                                  '04:02:embedded message': 
+                                    {
+                                      '01:00:Varint': 1,
+                                      '100:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 3
+                                        }
+
+                                    },
+                                  '102:03:embedded message': 
+                                    {
+                                      '01:00:Varint': 776
+                                    }
+
+                                }
+------------------------------------------------整数
+                  '06:49:embedded message': 
+                    {
+                      '02:00:string': '变量_3',
+                      '03:01:Varint': 3,
+                      '04:02:embedded message': 
+                        {
+                          '01:00:Varint': 2,
+                          '02:01:Varint': 1,
+                          '04:02:embedded message': 
+                            {
+                              '01:00:Varint': 1,
+                              '100:01:embedded message': 
+                                {
+                                  '01:00:Varint': 3
+                                }
+
+                            },
+                          '102:03:embedded message': 
+                            {
+                              '01:00:Varint': 755467
+                            }
+
+                        },
+                      '07:03:Varint': 6,
+                      '08:04:Varint': 6
+                    },
+
+------------------------------------------------字符串
+                  '06:47:embedded message': 
+                    {
+                      '02:00:string': '变量_1',
+                      '03:01:Varint': 6,
+                      '04:02:embedded message': 
+                        {
+                          '01:00:Varint': 5,
+                          '02:01:Varint': 1,
+                          '04:02:embedded message': 
+                            {
+                              '01:00:Varint': 1,
+                              '100:01:embedded message': 
+                                {
+                                  '01:00:Varint': 6
+                                }
+
+                            },
+                          '105:03:embedded message': 
+                            {
+                              '01:00:string': '4353g0'
+                            }
+
+                        },
+                      '07:03:Varint': 6,
+                      '08:04:Varint': 6
+                    },
+
+
+------------------------------------------------字符串列表
+                  '06:48:embedded message': 
+                    {
+                      '02:00:string': '变量_2',
+                      '03:01:Varint': 11,
+                      '04:02:embedded message': 
+                        {
+                          '01:00:Varint': 10002,
+                          '02:01:Varint': 1,
+                          '04:02:embedded message': 
+                            {
+                              '01:00:Varint': 1,
+                              '100:01:embedded message': 
+                                {
+                                  '01:00:Varint': 11
+                                }
+
+                            },
+                          '109:03:embedded message': 
+                            {
+                              '01:00:embedded message': 
+                                {
+                                  '01:00:Varint': 5,
+                                  '02:01:Varint': 1,
+                                  '04:02:embedded message': 
+                                    {
+                                      '01:00:Varint': 1,
+                                      '100:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 6
+                                        }
+
+                                    },
+                                  '105:03:embedded message': 
+                                    {
+                                      '01:00:string': '445gfgf'
+                                    }
+
+                                },
+                              '01:01:embedded message': 
+                                {
+                                  '01:00:Varint': 5,
+                                  '02:01:Varint': 1,
+                                  '04:02:embedded message': 
+                                    {
+                                      '01:00:Varint': 1,
+                                      '100:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 6
+                                        }
+
+                                    },
+                                  '105:03:embedded message': 
+                                    {
+                                      '01:00:string': 'fgfgfg'
+                                    }
+
+                                }
+
+                            }
+
+                        },
+                      '07:03:Varint': 6,
+                      '08:04:Varint': 6
+                    },
+
+---------------------字符串列表项子块
+                              '01:01:embedded message': 
+                                {
+                                  '01:00:Varint': 5,
+                                  '02:01:Varint': 1,
+                                  '04:02:embedded message': 
+                                    {
+                                      '01:00:Varint': 1,
+                                      '100:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 6
+                                        }
+
+                                    },
+                                  '105:03:embedded message': 
+                                    {
+                                      '01:00:string': 'fgfgfg'
+                                    }
+
+                                }
+
+------------------------------------------------布尔
+                  '06:53:embedded message': 
+                    {
+                      '02:00:string': '变量_7',
+                      '03:01:Varint': 4,
+                      '04:02:embedded message': 
+                        {
+                          '01:00:Varint': 6,
+                          '02:01:Varint': 1,
+                          '04:02:embedded message': 
+                            {
+                              '01:00:Varint': 1,
+                              '100:01:embedded message': 
+                                {
+                                  '01:00:Varint': 4
+                                }
+
+                            },
+                          '106:03:embedded message': 
+                            {
+                              '01:00:Varint': 1
+                            }
+
+                        },
+                      '07:03:Varint': 6,
+                      '08:04:Varint': 6
+                    },
+
+
+------------------------------------------------
+
+
+------------------------------------------------
+
+
+------------------------------------------------
+
+
+------------------------------------------------
+
+
