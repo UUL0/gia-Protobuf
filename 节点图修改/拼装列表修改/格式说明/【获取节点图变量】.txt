@@ -1,0 +1,92 @@
+-------------------获取节点图变量
+-----------（ '01:00:Varint': 10,内部唯一ID，'01:00:string': '浮点获取'获取变量名）
+---------（浮点类型337，346）
+
+
+
+
+                  '03:02:embedded message': 
+                    {
+                      '01:00:Varint': 10,
+                      '02:01:embedded message': 
+                        {
+                          '01:00:Varint': 10001,
+                          '02:01:Varint': 20000,
+                          '03:02:Varint': 22000,
+                          '05:03:Varint': 337
+                        },
+                      '03:02:embedded message': 
+                        {
+                          '01:00:Varint': 10001,
+                          '02:01:Varint': 20000,
+                          '03:02:Varint': 22000,
+                          '05:03:Varint': 346
+                        },
+                      '04:03:embedded message': 
+                        {
+                          '01:00:embedded message': 
+                            {
+                              '01:00:Varint': 3
+                            },
+                          '02:01:embedded message': 
+                            {
+                              '01:00:Varint': 3
+                            },
+                          '03:02:embedded message': 
+                            {
+                              '01:00:Varint': 5,
+                              '02:01:Varint': 1,
+                              '04:02:embedded message': 
+                                {
+                                  '01:00:Varint': 1,
+                                  '100:01:embedded message': 
+                                    {
+                                      '01:00:Varint': 6
+                                    }
+                                },
+                              '105:03:embedded message': 
+                                {
+                                  '01:00:string': '浮点获取'
+                                }
+                            },
+                          '04:03:Varint': 6
+                        },
+                      '04:04:embedded message': 
+                        {
+                          '01:00:embedded message': 
+                            {
+                              '01:00:Varint': 4
+                            },
+                          '02:01:embedded message': 
+                            {
+                              '01:00:Varint': 4
+                            },
+                          '03:02:embedded message': 
+                            {
+                              '01:00:Varint': 10000,
+                              '02:01:Varint': 1,
+                              '110:02:embedded message': 
+                                {
+                                  '01:00:Varint': 9,
+                                  '02:01:embedded message': 
+                                    {
+                                      '01:00:Varint': 10002,
+                                      '04:01:embedded message': 
+                                        {
+                                          '01:00:Varint': 1,
+                                          '100:01:embedded message': 
+                                            {
+                                              '01:00:Varint': 10
+                                            }
+                                        },
+                                      '109:02:embedded message': 
+                                        {
+                                        }
+                                    }
+                                }
+                            },
+                          '04:03:Varint': 10
+                        },
+                      '05:05:32-bit': -649.7777709960938,
+                      '06:06:32-bit': -207.77777099609375
+                    },
